@@ -2,7 +2,10 @@
 
 import UIKit
 
-// Solution: 
+// Solution: This is common question for testing knowledge on using stacks
+// Why? Because for parenthese, if we have a close parenthese, when we want to
+// find its counterpart, it is fast to look at the last item in an open-paren stack
+// too see if they are a match. If not, then we do not have a balanced parenthese
 
 func balancedParenCheck(targetString: String) -> Bool{
 	
